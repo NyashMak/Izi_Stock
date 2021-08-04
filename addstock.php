@@ -66,18 +66,7 @@ include "db.php";
           });
         });
 
-    /*    $("#result").click(function(){
-
-         
-                $.ajax({
-                    url: 'addstock.php',
-                    type: 'post',
-                    data: {prod: $(this).text()},
-                    success: function(result){
-                        $("#result").html(result);
-                    }
-                });
-            });    */
+ 
             
         </script>
 
