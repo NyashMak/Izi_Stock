@@ -50,7 +50,7 @@ include "db.php";
 
     <div id="main">
 
-      <h1>Welcome Nyasha</h1>
+      <h1>Welcome UserName</h1>
       <hr>
       <br>
         <div class="cat-content">
