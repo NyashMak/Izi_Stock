@@ -1,0 +1,67 @@
+EFD DATABASE STRUCTURE
+1. Users - Done (requires capturing)
+2. Categories - Done (requires capturing)
+3. Products - Done (requires capturing)
+4. Stocklist (Factory, Woodstock, Durbanville)
+5. Sales - Done 
+6. Shop - Done
+
+Users Table
+1. ID
+2. Name
+3. Surname
+4. Email
+5. Password
+6. Shop
+7. User Authority
+
+Shops
+1. ID
+2. Shop Name
+
+Categories Table
+1. ID 
+2. Category Name
+
+Products Table
+1. ID
+2. Category
+3. SKU
+4. Description
+5. Dimensions
+6. SA Pine Price
+7. Saligna Price
+8. Blackwood Price
+9. Oak Price
+
+Stocklist (We will have to create 3 stocklists- DBNVL, WS, FCT)
+1. ID
+2. Category
+3. SKU#
+4. Description
+5. Dimensions
+6. Timber
+7. PT Finish
+8. Secondary Timber
+9. ST Finish
+10. Notes/ Comments
+11. Shop
+12. Logged by
+13. Date Logged
+14. Date Dispatched/ Sold
+15. Price
+
+
+Sales Table
+1. ID
+3. Description
+4. Dimensions
+5. Primary Timber
+6. Shop
+7. Client Name
+8. Quote Number
+9. Sales Person
+10. Date Sold
+11. Selling Price
+12. Sold @
+13. Notes/ Comments

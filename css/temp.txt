@@ -1,0 +1,63 @@
+CSS
+
+/*
+.sidebar {
+    position:fixed; 
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #042331;  
+}
+
+.sidebar header {
+ text-align: center;
+ color: aliceblue;
+ font-size: 25px;
+ line-height: 90px;
+ background: #063146;
+ user-select: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid #042331;
+    transition: .4s;
+}
+
+ul li:hover a {
+    padding-left: 50px;
+    color: brown;
+    transition: .4s;
+}
+
+*/
+
+HTML
+<!-- Side Menu Bar -->
+<div class="sidebar">
+  <header>Izi Stox</header>
+  <ul>
+  <li><a href="#"><i class="fas fa-chart-line"></i>Dashboard</a></li>
+  <li><a href="#"><i class="fas fa-book-open"></i>Stocklist</a></li>
+  <li><a href="#"><i class="fas fa-bars"></i>Categories</a></li>
+  <li><a href="#"><i class="fas fa-users"></i>Users</a></li>
+  <li><a href="#"><i class="fas fa-envelope"></i>Notifications</a></li>
+  </ul>
+
+</div>
+
+
+
+
+from #wrapper table
+position: absolute;
+    top: 20%;
+    right: 2%;
